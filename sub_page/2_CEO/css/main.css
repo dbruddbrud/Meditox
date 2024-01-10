@@ -1,0 +1,423 @@
+.wrap{
+    width: 100%;
+    overflow-y: hidden;
+}
+
+header{
+    height: 80px;
+    position: fixed;
+    z-index: 9;
+    background-color: rgba(0,0,0,0.5);
+  }
+  
+  .header_inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+    box-sizing: border-box;
+  }
+  
+  .header_inner img{
+    width: 150px;
+  }
+  
+  .header_right{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .sub_menu{
+    width: 426px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .sub_menu a{
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .lang{
+    font-size: 14px;
+    padding: 7px 25px;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 25px;
+    margin-left: 80px;
+  }
+  
+  .menu{
+    width: 40px;
+    margin-left: 35px;
+  }
+  
+  .menu img{
+    width: 100%;
+    transform: translateY(4px);
+  }
+  
+  .sub_menu>li{
+    position: relative;
+  }
+  
+  .sub_list{
+    width: 200%;
+    padding: 0 30px;
+    position: absolute;
+    top: 48px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.3s;
+    opacity: 0;
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  .sub_list li{
+    line-height: 0px;
+    transition: 0.3s;
+  }
+  
+  .sub_menu>li:hover .sub_list{
+    opacity: 1;
+  }
+  
+  .sub_menu>li:hover .sub_list li{
+    line-height: 50px;
+  }
+
+  header .logo{
+    margin-bottom: 0;
+  }
+
+/* header end */
+
+.section_1{
+    height: 100%;
+    position: relative;
+}
+
+.title_wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.banner_title{
+    font-size: 74px;
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+
+.banner_title>a{
+    color: #fff;
+}
+
+.banner_subtitle{
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.banner_mo{
+    display: none;
+}
+
+/* .section_1 end */
+
+.section_2{
+    position: relative;
+    height: 100%;
+}
+
+.con_wrap{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.title_wrap_2{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sub_title{
+    font-size: 32px;
+    font-weight: 700;
+    color: #DD1A1E;
+    margin-bottom: 5px;
+}
+
+.title{
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: -2px;
+    line-height: 60px;
+}
+
+.txt_wrap{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.txt_inner_pc{
+    display: flex;
+    flex-direction: column;
+    margin-top: 55px;
+}
+
+.txt_inner_pc>li{
+    margin-bottom: 20px;
+}
+
+.txt{
+    font-size: 27px;
+    font-weight: 400;
+    color: rgba(17, 17, 17, 0.9);
+}
+
+.sign{
+    width: 40%;
+    position: absolute;
+    bottom: -20%;
+    right: 0;
+}
+
+.logo_txt{
+    position: absolute;
+    bottom: -55px;
+    right: 100px;
+    width: 50%;
+}
+
+.txt_inner_mo{
+    display: none;
+}
+
+/* .section_2 end */
+
+footer{
+    background-color: #000;
+    position: relative;
+  }
+  
+  .footer_inner{
+    padding: 50px 200px;
+  }
+  
+  .icon_wrap{
+    display: flex;  
+    align-items: flex-end;
+  }
+  
+  .icon_wrap img{
+    margin-right: 30px;
+  }
+  .Flogo{
+    width: 200px;
+  }
+  
+  .blog, .youtube{
+    width: 25px;
+    height: 25px;
+  }
+  
+  .topF{
+    width: 100%;
+    border-bottom: 1px solid #707070;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding-bottom: 60px;
+  }
+  
+  .company_wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .company_wrap p{
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  
+  .bottomF{
+    display: flex;
+    justify-content: space-between;
+    color: #808080;
+    margin-top: 15px;
+  }
+
+  /* footer end */
+
+@media all and (max-width:450px){
+    
+  header {
+    height: 40px;
+  }
+
+  .header_inner {
+    padding: 0 20px;
+  }
+
+  .header_inner img {
+    width: 70px;
+  }
+  
+  .sub_menu, .lang{
+    display: none;
+  }
+
+  .menu {
+    width: unset;
+    margin-left: unset;
+  }
+
+  .menu img {
+    width: 15px;
+    transform: unset;
+  }
+
+/* header end */
+
+    .title_wrap{
+        width: 100%;
+    }
+    
+    .banner_title{
+        font-size: 35px;
+    }
+    
+    .banner_subtitle{
+        font-size: 15px;
+    }
+    
+    .banner_mo{
+        display: block;
+    }
+
+    .banner_pc{
+        display: none;
+    }
+    
+    /* .section_1 end */
+    
+    .con_wrap{
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+    
+    .title_wrap_2{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .sub_title{
+        font-size: 18px;
+        /* margin-bottom: 8px; */
+    }
+    
+    .title{
+        font-size: 26px;
+        letter-spacing: -1px;
+        line-height: 30px;
+    }
+    
+    .txt_wrap{
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    
+    .txt_inner_mo{
+        display: flex;
+        flex-direction: column;
+        margin-top: 27px;
+    }
+    
+    .txt_inner_mo>li{
+        margin-bottom: 18px;
+    }
+    
+    .txt{
+        font-size: 14px;
+    }
+    
+    .sign{
+        width: 53%;
+        position: absolute;
+        bottom: -20%;
+        right: 0;
+    }
+    
+    .logo_txt{
+        position: absolute;
+        bottom: -18px;
+        right: unset;
+        left: 50%;
+        width: 80%;
+        transform: translateX(-50%);
+    }
+
+    .txt_inner_pc{
+        display: none;
+    }
+
+    .txt_inner_mo{
+        display: block;
+    }
+
+    /* .section_2 end */
+
+    .footer_inner {
+      padding: 40px 20px;
+      box-sizing: border-box;
+    }
+  
+    .company_wrap {
+      align-items: start;
+    }
+  
+    .topF {
+      flex-direction: column;
+      padding-bottom: 10px;
+    }
+  
+    .icon_wrap {
+      margin-bottom: 30px;
+    }
+  
+    .company_wrap p {
+      font-size: 12px;
+      line-height: 25px;
+    }
+  
+    .bottomF {
+      margin-top: 5px;
+      flex-direction: column-reverse;
+    }
+  
+    .bottomF p:nth-child(2){
+      font-size: 10px;
+      margin-bottom: 4px;
+    }
+  
+    .bottomF p:nth-child(1){
+      font-size: 12px;
+    }
+
+    /* footer end */
+    
+}

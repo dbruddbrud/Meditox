@@ -1,0 +1,94 @@
+footer{
+  background-color: #000;
+}
+
+.footer_inner{
+  padding: 50px 200px;
+}
+
+.icon_wrap{
+  display: flex;  
+  align-items: flex-end;
+}
+
+.icon_wrap img{
+  margin-right: 30px;
+}
+.Flogo{
+  width: 200px;
+}
+
+.blog, .youtube{
+  width: 30px;
+  height: 30px;
+}
+
+.topF{
+  width: 100%;
+  border-bottom: 1px solid #707070;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  padding-bottom: 60px;
+}
+
+.company_wrap{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.company_wrap p{
+  font-size: 16px;
+  line-height: 24px;
+}
+
+
+.bottomF{
+  display: flex;
+  justify-content: space-between;
+  color: #808080;
+  margin-top: 15px;
+}
+
+
+/* 반응형 390px ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+/* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+@media all and (max-width : 390px){
+  .footer_inner {
+    padding: 40px 20px;
+    box-sizing: border-box;
+  }
+
+  .company_wrap {
+    align-items: start;
+  }
+
+  .topF {
+    flex-direction: column;
+    padding-bottom: 10px;
+  }
+
+  .icon_wrap {
+    margin-bottom: 30px;
+  }
+
+  .company_wrap p {
+    font-size: 12px;
+    line-height: 25px;
+  }
+
+  .bottomF {
+    margin-top: 5px;
+    flex-direction: column-reverse;
+  }
+
+  .bottomF p:nth-child(2){
+    font-size: 10px;
+    margin-bottom: 4px;
+  }
+
+  .bottomF p:nth-child(1){
+    font-size: 12px;
+  }
+
+}

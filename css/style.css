@@ -1,0 +1,13 @@
+@import url(reset.css);
+@import url(common.css);
+
+@import url(main_page/header.css);
+@import url(main_page/sec01_banner.css);
+@import url(main_page/sec02_company.css);
+@import url(main_page/sec03_products.css);
+@import url(main_page/sec04_R&D.css);
+@import url(main_page/sec05_news.css);
+@import url(main_page/sec06_shortcuts.css);
+@import url(main_page/footer.css);
+@import url(main_page/top_btn.css);
+@import url(main_page/ham_menu.css);

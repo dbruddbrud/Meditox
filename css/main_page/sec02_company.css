@@ -1,0 +1,112 @@
+.sec02{
+  height: 100vh;
+  background: url(../../img/3_banner/1.png) no-repeat center/cover;
+
+  /* background-color: steelblue; */
+}
+
+.sec02 .sec_inner{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.36);
+}
+
+.txtbox2{
+  width: fit-content;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.txtbox2>p{
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 70px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.con_wrap2{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 140px;
+}
+
+.con{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.con p:first-child{
+  font-size: 28px;
+}
+
+.con span{
+  font-size: 100px;
+  font-weight: 500;
+}
+
+.con p:last-child{
+  font-size: 50px;
+  font-weight: 500;
+}
+
+
+.viewmore{
+  font-size: 28px;
+  padding: 20px;
+  border: 1px solid #fff;
+  border-radius: 40px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.viewmore a{
+  color: #fff;
+}
+
+
+
+/* 반응형 390px ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+/* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+@media all and (max-width : 390px){
+  .sec02 {
+    height: 300px;
+  }
+
+  .txtbox2>p {
+    font-size: 12px;
+    line-height: 17px;
+    margin-bottom: 40px;
+  }
+
+  .con_wrap2 {
+    width: 300px;
+    margin-bottom: 40px;
+  }
+
+  .con p:first-child {
+    font-size: 10px;
+  }
+
+  .con p:last-child {
+    font-size: 16px;
+  }
+
+  .con span {
+    font-size: 33px;
+  }
+
+  .viewmore {
+    font-size: 12px;
+    padding: 5px 10px;
+  }
+
+} 

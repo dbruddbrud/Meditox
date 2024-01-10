@@ -1,0 +1,124 @@
+.mo{
+    display: none!important;
+}
+
+.sec{
+    box-sizing: border-box;
+    padding: 140px 135px;
+}
+
+.sec_inner{
+    width: 1650px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.mon{
+    font-family: montserrat;
+    letter-spacing: -3%;
+}
+.sub_banner{
+    width: 100%;
+    height: 790px;
+    text-align: center;
+    padding-top: 370px;
+    box-sizing: border-box;
+}
+
+.banner_title{
+    font-size: 74px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 40px;
+    font-family:montserrat;
+    letter-spacing: -3%;
+}
+.banner_sub{
+    font-size: 28px;
+    color: white;
+    
+
+}
+.sub_title{
+    width: fit-content;
+    font-size: 32px;
+    font-weight: 700;
+    color: #DD1A1E;
+    font-family: montserrat;
+    letter-spacing: -3%;
+}
+.title{
+    width: fit-content;
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.bg{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+  /* 반응형 390px ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+  /* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+  @media all and (max-width : 390px){
+    .mo{
+        display: block!important;
+    }
+    .pc{
+        display: none!important;
+    }
+    .sec{
+        box-sizing: border-box;
+        padding: 50px 20px;
+    }
+    
+    .sec_inner{
+        width: 350px;
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+    .mon{
+        font-family: montserrat;
+        letter-spacing: -3%;
+    }
+    .sub_banner{
+        width: 100%;
+        height: 350px;
+        text-align: center;
+        padding-top: 158px;
+        box-sizing: border-box;
+    }
+    
+    .banner_title{
+        font-size: 28px;
+        color: white;
+        font-weight: 700;
+        margin-bottom: 16px;
+    }
+    .banner_sub{
+        font-size: 16px;
+        color: white;
+        line-height: 23px;
+        font-weight: 400;
+        letter-spacing: 0;
+    }
+    .sub_title{
+        width: fit-content;
+        font-size: 18px;
+        font-weight: 700;
+        color: #DD1A1E;
+        font-family: montserrat;
+        letter-spacing: -3%;
+    }
+    .title{
+        width: fit-content;
+        font-size: 26px;
+        font-weight: 700;
+        margin-top: 10px;
+    }
+    .bg{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+  }

@@ -1,0 +1,180 @@
+.sec03 .sec_inner{
+  height: fit-content;
+  padding: 120px 200px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bgimg{
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: -9;
+  
+}
+
+.left_wrap3{
+  height: 100%;
+  position: sticky;
+  top: 100px;
+
+  /* background-color: lightgrey; */
+}
+
+
+
+/* .txtbox3{
+  margin-top: 120px;
+} */
+
+.sub_title3{
+  font-size: 32px;
+  font-weight: 700;
+  color: #DD1A1E;
+  margin-bottom: 5px;
+}
+
+.title3{
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 55px;
+  color: #fff;
+}
+
+.sub_txt3{
+  /* width: 422px; */
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  /* color: #666666; */
+  color: #FEFEFE;
+}
+
+
+/* right wrap ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+.right_wrap3{
+  display: flex;
+  justify-content: space-between;
+}
+
+.container3_2{
+  margin-top: 310px;
+  margin-left: 90px;
+}
+
+.con3{
+  width: 360px;
+  height: 480px;
+  padding: 37px 30px;
+  box-sizing: border-box;
+  background-color: #FEFEFE;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 140px;
+}
+
+.con3 .img_box3{
+  width: 300px;
+  height: 300px;
+  /* background-color: #666666; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img_box3 img{
+  width: 193px;
+}
+
+
+
+.product_label{
+  font-size: 18px;
+  color: #DD1A1E;
+  line-height: 26px;
+}
+
+.name{
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+.blind_box3{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.3);
+}
+
+
+/* 반응형 390px ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+/* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+@media all and (max-width : 390px){
+  .sec03{
+    /* background-color: #ced4da; */
+    background-color: #868e96;
+  }
+  .sec03 .sec_inner {
+    padding: 50px 20px;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  
+  .left_wrap3 {
+    position: static;
+    margin-bottom: 30px;
+  }
+
+  .sub_title3 {
+    font-size: 12px;
+  }
+
+  .title3 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+
+  .sub_txt3 {
+    font-size: 12px;
+    line-height: 17px;
+  }
+
+  .con3 {
+    width: 100%;
+    height: 430px;
+    padding: 23px 25px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+  }
+
+  .right_wrap3 {
+    flex-direction: column;
+  }
+
+  .product_label {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .name {
+    font-size: 22px;
+    line-height: 28px;
+  }
+
+  .container3_2 {
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+
+
+
+
+}
